@@ -15,3 +15,6 @@ print("\n--- RESULTADOS ---")
 
 print("Aprobados: ", aprobados, sep="\n", end="\n\n")
 print("Reprobados: ", reprobados, sep="\n")
+
+promedio = sum(nota for _, nota in estudiantes)/ len(estudiantes)
+print(f"Promedio de la clase: {promedio:.2f}")
