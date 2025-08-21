@@ -11,3 +11,7 @@ for nombres, notas in estudiantes:
     else:
         print(f"Nota invalida para {nombres}")
 
+print("\n--- RESULTADOS ---")
+
+print("Aprobados: ", aprobados, sep="\n", end="\n\n")
+print("Reprobados: ", reprobados, sep="\n")
